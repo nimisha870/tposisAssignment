@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="Topsis_Nimisha_Gujral_102203894",
+    name="Topsis_by_Nimisha_Gujral_102203894",
     version="1.0.14",
     author="Nimisha Gujral",
     author_email="ngujral_be22@thapar.com",
@@ -19,5 +19,5 @@ setup(
         "Operating System :: OS Independent",
     ],
     install_requires=["pandas", "numpy"],
-    entry_points={"console_scripts": ["Topsis_Nimisha_Gujral_102203894 = Topsis_Nimisha_Gujral_102203894.topsis:main"]},
+    entry_points={"console_scripts": ["Topsis_by_Nimisha_Gujral_102203894 = tposisAssignment.topsis:main"]},
 )
